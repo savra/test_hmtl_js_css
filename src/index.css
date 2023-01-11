@@ -1,0 +1,25 @@
+.dataGridCell td {
+    font-size: 12pt;
+    border-right: 1px solid rgb(160, 160, 160);
+}
+
+.dataGridHeader td {
+    height: auto !important;
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.dataGridHeader td div {
+    font-size: 9pt;
+    color: rgb(120, 120, 120);
+    text-align: left;
+    border-right: 1px solid rgb(160, 160, 160);
+}
+
+.dataGridHeader td:last-child div:only-child {
+    border: 0;
+}
+
+.dataGridCell tbody td:last-child {
+    border: 0;
+}
